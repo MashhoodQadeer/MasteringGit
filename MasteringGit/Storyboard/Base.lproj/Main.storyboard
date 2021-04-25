@@ -86,19 +86,74 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVz-8X-rp9">
                                                 <rect key="frame" x="10" y="10" width="192" height="405"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circularImage" translatesAutoresizingMaskIntoConstraints="NO" id="VfS-bb-3UC">
+                                                        <rect key="frame" x="46" y="152.66666666666666" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="EI6-Ae-0r5"/>
+                                                            <constraint firstAttribute="width" secondItem="VfS-bb-3UC" secondAttribute="height" multiplier="1:1" id="LT9-zR-m6q"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.12398217429577464" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="VfS-bb-3UC" firstAttribute="centerX" secondItem="FVz-8X-rp9" secondAttribute="centerX" id="UGM-0D-ep5"/>
+                                                    <constraint firstItem="VfS-bb-3UC" firstAttribute="centerY" secondItem="FVz-8X-rp9" secondAttribute="centerY" id="f19-id-lq9"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ShW-DJ-JwX">
                                                 <rect key="frame" x="212" y="10" width="192" height="405"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circularImage" translatesAutoresizingMaskIntoConstraints="NO" id="mss-0M-5gg">
+                                                        <rect key="frame" x="46" y="152.66666666666666" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="mss-0M-5gg" secondAttribute="height" multiplier="1:1" id="qNz-iC-sAc"/>
+                                                            <constraint firstAttribute="width" constant="100" id="w8o-Sd-vRk"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.12398217429577464" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="mss-0M-5gg" firstAttribute="centerX" secondItem="ShW-DJ-JwX" secondAttribute="centerX" id="HQt-H9-a87"/>
+                                                    <constraint firstItem="mss-0M-5gg" firstAttribute="centerY" secondItem="ShW-DJ-JwX" secondAttribute="centerY" id="xn2-6R-gXe"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-H7-74e">
                                                 <rect key="frame" x="10" y="425" width="192" height="405"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circularImage" translatesAutoresizingMaskIntoConstraints="NO" id="H6B-hm-77p">
+                                                        <rect key="frame" x="46" y="152.66666666666663" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="H6B-hm-77p" secondAttribute="height" multiplier="1:1" id="9fe-AY-GVo"/>
+                                                            <constraint firstAttribute="width" constant="100" id="ZnR-Rb-RJL"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.12398217429577464" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="H6B-hm-77p" firstAttribute="width" secondItem="H6B-hm-77p" secondAttribute="height" multiplier="1:1" id="5hd-oz-W8C"/>
+                                                    <constraint firstItem="H6B-hm-77p" firstAttribute="centerX" secondItem="iTb-H7-74e" secondAttribute="centerX" id="BmR-Fl-ObK"/>
+                                                    <constraint firstItem="H6B-hm-77p" firstAttribute="centerY" secondItem="iTb-H7-74e" secondAttribute="centerY" id="M9d-bn-r2c"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXm-qa-hBF">
                                                 <rect key="frame" x="212" y="425" width="192" height="405"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circularImage" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-Lo-h00">
+                                                        <rect key="frame" x="46" y="152.66666666666663" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="dY7-nV-I1z"/>
+                                                            <constraint firstAttribute="width" secondItem="Vec-Lo-h00" secondAttribute="height" multiplier="1:1" id="uSk-kP-ilL"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.12398217429577464" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="Vec-Lo-h00" firstAttribute="width" secondItem="Vec-Lo-h00" secondAttribute="height" multiplier="1:1" id="4fC-Xh-vgJ"/>
+                                                    <constraint firstItem="Vec-Lo-h00" firstAttribute="centerX" secondItem="OXm-qa-hBF" secondAttribute="centerX" id="5C7-Ve-dKb"/>
+                                                    <constraint firstItem="Vec-Lo-h00" firstAttribute="width" secondItem="Vec-Lo-h00" secondAttribute="height" multiplier="1:1" id="R71-fp-0yo"/>
+                                                    <constraint firstItem="Vec-Lo-h00" firstAttribute="centerY" secondItem="OXm-qa-hBF" secondAttribute="centerY" id="rku-p3-2Kp"/>
+                                                </constraints>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.134765625" colorSpace="custom" customColorSpace="displayP3"/>
